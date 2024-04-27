@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="form.css">
+        <meta viewport="width=device-width, initial-scale=1.0">
+        <title>User Form</title>
+    </head>
+
+    <body>
+        
+        <div class="login-container">
+            <div class="header">
+                <h2 class="title">User Form</h1>
+            </div>
+            
+                <div class="row1">
+                    <div id="r1c1">
+                        <p>Enter Name</p>
+                    </div>
+                    <div id="r1c2">
+                        <input type="text" id="name" value="Name" style="color: lightgrey;" required>
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div id="r2c1">
+                        <p>Enter Password</p>
+                    </div>
+                    <div id="r2c2">
+                        <input type="password" id="password" value="Password" style="color:lightgray;" required>
+                    </div>
+                </div>
+
+                <div class="row3">
+                    <div id="r3c1">
+                        <p>Enter Address</p>
+                    </div>
+                    <div id="r3c2">
+                        <input type="text" id="address" value="Address" style="color:lightgray;" required>
+                    </div>
+                </div>
+
+                <div class="row4">
+                    <div id="r4c1">
+                        <p>Select Game</p>
+                    </div>
+                    <dic id="r4c2">
+                        <input type="checkbox" id="checkbox" name="Hockey" value="Hockey"/>
+                        <label for ="Hockey" >Hockey</label>
+                        <input type="checkbox" id="checkbox" name="Hockey" value="Hockey"/>
+                        <label for ="Footbal" >Football</label>
+                        <input type="checkbox" id="checkbox" name="Hockey" value="Hockey"/>
+                        <label for ="Badminton" >Badminton</label>
+                        <input type="checkbox" id="checkbox" name="Hockey" value="Hockey"/>
+                        <label for ="Cricket" >Cricket</label>
+                        <input type="checkbox" id="checkbox" name="Hockey" value="Hockey"/>
+                        <label for ="Volleyball" >Volleyball</label>
+                    </div>
+                </div>
+
+                <div class="row5">
+                    <div id="r5c1">
+                        <p>Gender</p>
+                    </div>
+                    <div id="r5c2">
+                        <input type="radio" id="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female">
+                        <label for="female">Female</label><br>
+                    </div>
+                </div>
+
+                <div class="row6">
+                    <div id="r6c1">
+                        <p>Select ur age</p>
+                    </div>
+                    <div id="r6c2">
+                        <select id="dropdown">
+                            <option value="" selected disabled hidden>Select Age</option>
+                            <option value="option1">Below 10yrs</option>
+                            <option value="option2">10-20yrs</option>
+                            <option value="option3">20-30yrs</option>
+                            <option value="option4">30+yrs</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="row7">
+                    <div id="r7c1">
+                        <p>Upload File</p>
+                        <input type="file" id="fileUpload" name="fileUpload">
+                    </div>
+                </div>
+
+                <div class="row8">
+                    <button id="click-me">Click Me</button>
+                    <button id="reset">Reset</button>
+                    <button id="Submit">Submit Form</button>
+                </div>
+            
+        </div> 
+    
+    </body>
+    
+</html>
