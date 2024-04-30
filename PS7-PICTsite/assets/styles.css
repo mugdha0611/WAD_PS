@@ -1,0 +1,22 @@
+.header{
+    background-color: lightgray;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    height:200px;
+    width: 90%;
+}
+footer
+{
+    margin-top: 10px;
+    width: 100%;
+    background-color: lightgreen;
+    opacity: 0.7;
+    color: green;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
